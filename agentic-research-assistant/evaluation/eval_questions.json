@@ -1,0 +1,26 @@
+[
+  {
+    "id": "q1",
+    "question": "What are the primary causes of climate change and their relative contributions?",
+    "expected_topics": ["greenhouse gases", "fossil fuels", "deforestation", "industrial emissions"],
+    "notes": "Good for testing multi-faceted decomposition"
+  },
+  {
+    "id": "q2",
+    "question": "How does transformer architecture differ from recurrent neural networks for NLP tasks?",
+    "expected_topics": ["attention mechanism", "sequential processing", "parallelism", "LSTM"],
+    "notes": "Tests technical domain retrieval"
+  },
+  {
+    "id": "q3",
+    "question": "What are the economic and social impacts of remote work adoption since 2020?",
+    "expected_topics": ["productivity", "real estate", "work-life balance", "digital divide"],
+    "notes": "Tests recent events and societal analysis"
+  },
+  {
+    "id": "q4",
+    "question": "What is CRISPR gene editing and what are its main medical applications and ethical concerns?",
+    "expected_topics": ["DNA editing", "genetic disease", "off-target effects", "bioethics"],
+    "notes": "Tests scientific + ethical reasoning"
+  }
+]

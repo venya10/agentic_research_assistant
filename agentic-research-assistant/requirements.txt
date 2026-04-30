@@ -1,0 +1,34 @@
+# Core
+streamlit>=1.32.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# LLM providers (only the one matching LLM_PROVIDER needs to be installed)
+anthropic>=0.25.0
+openai>=1.12.0
+google-generativeai>=0.4.0
+
+# LangChain + LangGraph
+langchain>=0.1.12
+langchain-community>=0.0.28
+langchain-anthropic>=0.1.4
+langchain-openai>=0.1.1
+langchain-google-genai>=0.0.9
+langchain-groq>=0.1.3
+langgraph>=0.0.40
+
+# Vector store
+chromadb>=0.4.24
+
+# Embeddings (local, no API key required)
+sentence-transformers>=2.6.1
+
+# Document processing
+pypdf>=4.1.0
+markdown>=3.6
+
+# PDF export (optional)
+weasyprint>=62.0
+
+# Testing
+pytest>=8.0.0
